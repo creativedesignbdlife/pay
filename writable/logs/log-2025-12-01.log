@@ -1,0 +1,504 @@
+CRITICAL - 2025-12-01 00:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 00:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 00:30:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 01:04:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 02:19:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 02:37:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 02:37:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 02:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 02:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 03:18:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 03:18:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 03:44:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 03:44:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 05:14:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 05:14:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 08:14:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 08:14:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 15:53:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 16:12:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 16:12:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 18:37:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 18:37:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 18:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 18:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 19:44:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 19:44:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 21:14:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-01 21:14:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `options`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH/Helpers/settings_helper.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Viewsuddok/errors/404.php(5): get_option('site_title', 'author')
+ 5 APPPATH/system/View/View.php(228): include('/home/creativedesignbd/pay.creativedesign.com.bd/app/Viewsuddok/errors/404.php')
+ 6 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('errors/404', [], true)
+ 8 APPPATH/Helpers/common_helper.php(606): view('errors/404')
+ 9 APPPATH/Controllers/Api.php(23): load_404()
+10 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->show404()
+11 APPPATH/system/CodeIgniter.php(971): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+12 APPPATH/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+13 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
